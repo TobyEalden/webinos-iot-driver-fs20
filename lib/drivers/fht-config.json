@@ -1,9 +1,45 @@
 {
   "type" : "cul",
-  "port" : "/dev/ttyAMA0",
+  "port" : "com13",
   "webPort": "4000",
   "socketPort": "4001",
   "devices" : {
-    "9059" : { "name": "Kitchen", "threshold": "20.0" }
+    "T5a3b" : {
+      "name": "Demo",
+      "threshold": "20.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    },
+    "E11" : {
+      "name": "Energy meter",
+      "revsPerkWh": 125.0,
+      "services": {
+        "cumulative": {
+          "name": "cumulative",
+          "type": "sensor",
+          "subType": "energy"
+        },
+        "interval": {
+          "name": "recent",
+          "type": "sensor",
+          "subType": "energy"
+        },
+        "peak": {
+          "name": "peak",
+          "type": "sensor",
+          "subType": "energy"
+        }
+      }
+    }
   }
 }
