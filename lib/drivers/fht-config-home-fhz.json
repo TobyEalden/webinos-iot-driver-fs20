@@ -1,0 +1,88 @@
+{
+  "type" : "fhz",
+  "port" : "com3",
+  "webPort": "4000",
+  "socketPort": "4001",
+  "devices" : {
+    "T3333" : {
+      "name": "Study",
+      "threshold": "20.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    },
+    "T4847" : {
+      "name": "Back reception",
+      "threshold": "10.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    },
+    "T5758" : {
+      "name": "Back bedroom",
+      "threshold": "10.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    },
+    "T563C" : {
+      "name": "Esme's room",
+      "threshold": "10.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    },
+    "T4D62" : {
+      "name": "Front reception",
+      "threshold": "10.0",
+      "services": {
+        "measuredTemp": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature"
+        },
+        "valvePosition": {
+          "name": "valve",
+          "type": "actuator",
+          "subType": "valve"
+        }
+      }
+    }
+  }
+}
