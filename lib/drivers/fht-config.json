@@ -30,7 +30,7 @@
           "subType": "energy"
         },
         "interval": {
-          "name": "recent",
+          "name": "average",
           "type": "sensor",
           "subType": "energy"
         },
