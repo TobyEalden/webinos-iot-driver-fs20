@@ -5,39 +5,44 @@
   "socketPort": "4001",
   "devices" : {
     "T5a3b" : {
-      "name": "Demo",
+      "name": "demo",
       "threshold": "20.0",
       "services": {
         "measuredTemp": {
-          "name": "temperature",
+          "name": "current",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
-          "name": "valve",
+          "name": "opening",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
     "E11" : {
-      "name": "Energy meter",
+      "name": "electricity",
       "revsPerkWh": 125.0,
       "services": {
         "cumulative": {
           "name": "cumulative",
           "type": "sensor",
-          "subType": "energy"
+          "subType": "energy",
+          "units": "kWh"
         },
         "interval": {
           "name": "average",
           "type": "sensor",
-          "subType": "energy"
+          "subType": "energy",
+          "units": "kWh"
         },
         "peak": {
           "name": "peak",
           "type": "sensor",
-          "subType": "energy"
+          "subType": "energy",
+          "units": "kWh"
         }
       }
     }
