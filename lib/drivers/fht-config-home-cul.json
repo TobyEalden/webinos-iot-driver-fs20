@@ -1,5 +1,5 @@
 {
-  "type" : "fhz",
+  "type" : "cul",
   "port" : "com3",
   "webPort": "4000",
   "socketPort": "4001",
@@ -11,12 +11,14 @@
         "measuredTemp": {
           "name": "temperature",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
           "name": "valve",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
@@ -27,12 +29,14 @@
         "measuredTemp": {
           "name": "temperature",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
           "name": "valve",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
@@ -43,12 +47,14 @@
         "measuredTemp": {
           "name": "temperature",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
           "name": "valve",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
@@ -59,12 +65,14 @@
         "measuredTemp": {
           "name": "temperature",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
           "name": "valve",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
@@ -75,12 +83,14 @@
         "measuredTemp": {
           "name": "temperature",
           "type": "sensor",
-          "subType": "temperature"
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
         },
         "valvePosition": {
           "name": "valve",
           "type": "actuator",
-          "subType": "valve"
+          "subType": "valve",
+          "units": "%"
         }
       }
     },
