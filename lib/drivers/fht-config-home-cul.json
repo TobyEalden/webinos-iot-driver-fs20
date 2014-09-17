@@ -94,7 +94,7 @@
         }
       }
     },
-    "E11" : {
+    "E0101" : {
       "name": "electricity",
       "revsPerkWh": 125.0,
       "services": {
@@ -115,6 +115,23 @@
           "type": "sensor",
           "subType": "energy",
           "units": "kWh"
+        }
+      }
+    },
+    "K01" : {
+      "name": "study",
+      "services": {
+        "temperature": {
+          "name": "temperature",
+          "type": "sensor",
+          "subType": "temperature",
+          "units": "\u00B0\u0043"
+        },
+        "humidity": {
+          "name": "humidity",
+          "type": "sensor",
+          "subType": "humidity",
+          "units": "%"
         }
       }
     }
